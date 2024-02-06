@@ -6,7 +6,7 @@
 
 - O programa solicita um CPF ao usuário, verificando se o usuário digitou corretamente ou enviou dados sequenciais. A partir disso, o código utiliza os primeiros nove digitos do CPF do usuário para gerar assim o primeiro dígito verificador. Em seguida, o programa calcula o segundo dígito verificador,com base nos primeiros 9 digitos e no primeiro dígito verificador
 
--Para validar um CPF fornecido pelo usuário, o script realiza os seguintes passos:
+- Para validar um CPF fornecido pelo usuário, o script realiza os seguintes passos:
 
 1. Calcula o primeiro dígito verificador com base nos primeiros nove dígitos do CPF fornecido.
 2. Calcula o segundo dígito verificador com base nos primeiros nove dígitos do CPF fornecido e no primeiro dígito verificador calculado anteriormente.
