@@ -1,4 +1,4 @@
-# Gerador e Validador de CPF
+# Validador de CPF
 
 - Este é um simples script em Python que valida números de CPF digitado pelo usuario.
 
