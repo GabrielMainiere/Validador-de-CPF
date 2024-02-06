@@ -21,7 +21,6 @@ Se o resultado anterior for maior que 9:
     resultado é 0
 contrário disso:
     resultado é o valor da conta
-149.936.617-54
 """
 import sys
 
@@ -48,8 +47,6 @@ if resultado_1 > 9:
 else:
     primeiro_digito = resultado_1
 
-print('Primeiro dígito:',primeiro_digito)
-
 #Algorítmo para encontrar o segundo dígito de um CPF
 soma_2 = 0
 
@@ -65,7 +62,6 @@ if resultado_2 > 9:
     segundo_digito = 0
 else:
     segundo_digito = resultado_2
-print('Segundo dígito:',segundo_digito)
 
 #Validando o CPF
 cpf_gerado = f'{nove_digitos}{primeiro_digito}{segundo_digito}'
